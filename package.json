@@ -1,0 +1,31 @@
+{
+  "name": "curso-react-babel",
+  "version": "1.0.0",
+  "description": "Ejemplo de integración de un proyecto con Babel",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel index.js -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Angelmmiguel/curso-react-babel.git"
+  },
+  "keywords": [
+    "Babel",
+    "ejemplo",
+    "curso"
+  ],
+  "author": "Angel M Miguel <angel@laux.es>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Angelmmiguel/curso-react-babel/issues"
+  },
+  "homepage": "https://github.com/Angelmmiguel/curso-react-babel#readme",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-plugin-transform-class-properties": "^6.19.0",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-stage-3": "^6.17.0"
+  }
+}
